@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(80, 45, 45);
+}
+.main {
+  background-color: rgb(45, 124, 129);
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 5px 4px 5px rgb(96, 68, 43);
+}
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
+table {
+  width: 100%;
+}
+form input {
+  font-size: 22px;
+  margin: 5px;
+  padding: 5px;
+  height: 66px;
+  text-align: right;
+}
+table td input {
+  width: 100%;
+  background-color: #e6954fee;
+  padding: 5px;
+  font-size: 22px;
+  cursor: pointer;
+  border: 2px solid #000;
+}
+table td input:hover {
+  border: 2px solid #daa67bff;
+}
